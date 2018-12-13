@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+html{
+	scroll-behavior: smooth;
+}
+
+.nav-logo{
+   height: 40px;
+}
+header{
+	background-color:transparent;
+	text-align: left;
+	color: #fff;
+}
+header h1{
+    letter-spacing: 5px;
+	font-weight: 100;
+	font-size: 22px;
+}
+.carousel-caption{
+	padding-bottom: 240px;
+	font-family: 'Caveat Brush', cursive;
+}
+.carousel-caption h4{
+	font-size: 80px;
+	text-align: center;
+}
+body{
+	font-family: 'Rubik', sans-serif;
+}
+#sec-acercade{
+	padding: 55px;
+	color: #000;
+}
+#sec-acercade h6{
+	color: #000;
+}
+#sec-acercade h1, h6{
+	text-align: center;
+	color: #000;
+}
+#sec-acercade h2{
+	font-style: bold;
+	color: #000;
+	text-align: left;
+}
+#sec-acercade p{
+	text-align: left;
+	color: #000;
+}
+#sec-servicios{
+	padding: 63px;
+	background-image: url(../img/servicese.png);
+	background-repeat: no-repeat;
+	background-position:top;
+    background-attachment: fixed;
+	background-color: #EFEFEF;
+}
+#sec-servicios h1, h4, h6{
+	color: #fff;
+}
+#sec-icon{
+	color: #fff;
+	font-size: 45px;
+}
+#sec-icon h4, p{
+	font-size: 16px;
+}
+#sec-portafolio{
+	padding: 35px;
+}
+#sec-portafolio h1{
+	color: #000;
+}
+#sec-portafolio h6{
+	padding-bottom: 30px;
+	color: #000;
+}
+#sec-contact{
+	padding: 140px;
+	color: #fff;
+	background: #000000;
+}
+#sec-contact h1{
+	text-align: center;
+	color: #fff;
+}
+#sec-contact h3, h1{
+	text-align: center;
+	color: #fff;
+}
+#sec-contact h6{
+	padding-bottom: 30px;
+}
+#footer-social{
+	text-align: center;
+	background: #000;
+	margin: auto;
+	color: #000;
+	padding-top: 10px; 
+	font-size: 20px;
+}
+#footer-social p{
+	text-align: center;
+	color: #fff;
+}
+.fa-twitter{
+	color: #fff;
+}
+.fa-facebook-f{
+	color: #fff;
+}
+.fa-instagram{
+	color: #fff;
+}
+.form-control{
+	text-align: left;
+}
+.bg-overlay{
+	display: inline-block;
+}
+.icono-insta{
+	position: absolute;
+	background-color: rgba(51,133,226,0.62);
+}
+.bg-overlay:hover .icono-insta{
+	opacity: 1;
+}
+.form-group, .btn{
+	text-align: center;
+	color: #aaa;
+}
+.titulo-insta h6{
+	color: #000;
+}
+.gotopbnt{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: rgba(174,156,157,0.54);
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 22px;
+}
